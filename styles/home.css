@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: #f0f2ff;
+}
+
+.containor {
+    width: 98%;
+    margin: auto;
+}
+
+.part1 {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 210px;
+    transition: box-shadow .3s;
+    background: linear-gradient(#5a67d8, #0b0b0b)
+}
+
+.part1 img {
+    margin-left: 10px;
+    border-radius: 175px;
+    width: 193px;
+    margin-top: 8px;
+    border-style: solid;
+    border-color: azure;
+    transition-duration: 0.5s;
+}
+
+.part1:hover img {
+    border: rgb(126, 140, 141);
+    transform: scale(1.025);
+    box-shadow: 0 0 20px azure;
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.part1:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
+
+.part4:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
+
+.part5:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
+
+.part6:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
+
+.part7:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
+
+.part1 h1 {
+    font-family: serif;
+    font-size: 44px;
+    color: azure;
+    margin-top: 65px;
+    margin-left: 160px;
+}
+
+.part1 h2 {
+    margin: 73px 549px 2px 315px;
+}
+
+.part2 {
+    background-color: black;
+}
+
+div.pageparts {
+    display: grid;
+    grid-template-rows: 200px 70px 500px 90px 500px 500px 500px 500px 180px;
+    grid-row-gap: 15px;
+}
+
+.part2 ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 312px;
+    margin-top: 3px;
+}
+
+.part2 li {
+    float: left;
+    height: 65px;
+    width: 250px;
+    background-color: black;
+    padding: 21px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.part2 li:hover {
+    background-color: rgb(236, 236, 234);
+    border-radius: 3px;
+    background: linear-gradient(#5a67d8, #0b0b0b)
+}
+
+a {
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(115, 243, 243);
+}
+
+.extrapartition {
+    background-color: rgb(223, 238, 255);
+    border-radius: 17px 89px 22px;
+    text-align: center;
+    margin: 16px;
+    border-style: solid;
+    border-color: white;
+}
+
+.extrapartition h1 {
+    margin-top: 1px;
+    font-family: serif;
+    font-size: 40px;
+}
+
+.part4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(223, 238, 255);
+    border-radius: 13px;
+    transition: box-shadow .3s;
+}
+
+.part4 img {
+    width: 724px;
+    margin-left: 104px;
+    margin-top: 48px;
+    transition-duration: 1s;
+    border-radius: 35px;
+}
+
+.part4 :hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 100px rgba(114, 113, 113, 0.2);
+    background-color: rgba(193, 194, 194, 0.548);
+}
+
+.details-part4 {
+    border: 1px bold black;
+}
+
+.part4 p {
+    padding: 151px;
+    margin-top: -49px;
+    font-size: 23px;
+    font-family: -webkit-pictograph;
+}
+
+.part4 h2 {
+    text-align: center;
+    margin: 85px 365px 2px 386px;
+    font-size: 39px;
+    font-family: -webkit-pictograph;
+    width: 285px;
+}
+
+.part5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(223, 238, 255);
+    border-radius: 13px;
+    transition: box-shadow .3s;
+}
+
+.part5 img {
+    width: 530px;
+    /* height: 467px; */
+    margin-top: 44px;
+    margin-left: 186px;
+    transition-duration: 1s;
+    border-radius: 35px;
+}
+
+.part5:hover img {
+    box-shadow: 0 0 100px rgba(114, 113, 113, 0.2);
+    transform: scale(1.05);
+    background-color: rgba(193, 194, 194, 0.548);
+}
+
+.part5 h2 {
+    text-align: center;
+    margin: 78px 0 2px 324px;
+    font-size: 39px;
+    font-family: -webkit-pictograph;
+    width: 360px;
+}
+
+.details-part5 {
+    border: 1px bold black;
+}
+
+.part5 p {
+    padding: 151px;
+    margin-top: -43px;
+    font-size: 24px;
+    font-family: -webkit-pictograph;
+}
+
+.part6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(223, 238, 255);
+    border-radius: 13px;
+    transition: box-shadow .3s;
+}
+
+.part6 img {
+    width: 557px;
+    margin-left: 262px;
+    margin-top: 41px;
+    transition-duration: 1s;
+    border-radius: 35px;
+}
+
+.part6:hover img {
+    box-shadow: 0 0 100px rgba(114, 113, 113, 0.2);
+    transform: scale(1.05);
+    background-color: rgba(193, 194, 194, 0.548);
+}
+
+.details-part6 {
+    border: 1px bold black;
+}
+
+.part6 h2 {
+    text-align: center;
+    margin: 78px 0 2px 324px;
+    font-size: 39px;
+    font-family: -webkit-pictograph;
+    width: 360px;
+}
+
+.part6 p {
+    padding: 151px;
+    margin-top: -43px;
+    font-size: 24px;
+    font-family: -webkit-pictograph;
+}
+
+.part7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(223, 238, 255);
+    border-radius: 13px;
+    transition: box-shadow .3s;
+}
+
+.part7 img {
+    width: 720px;
+    margin-top: 41px;
+    margin-left: 115px;
+    transition-duration: 1s;
+    border-radius: 35px;
+}
+
+.part7:hover img {
+    box-shadow: 0 0 100px rgba(193, 194, 194, 0.548);
+    transform: scale(1.05);
+    background-color: rgba(193, 194, 194, 0.548);
+}
+
+.details-part7 {
+    border: 1px bold black;
+}
+
+.part7 h2 {
+    text-align: center;
+    margin: 78px 0 2px 324px;
+    font-size: 39px;
+    font-family: -webkit-pictograph;
+    width: 360px;
+}
+
+.part7 p {
+    padding: 151px;
+    margin-top: -43px;
+    font-size: 24px;
+    font-family: -webkit-pictograph;
+}
+
+.footer {
+    background: linear-gradient(#0b0b0b, #5a67d8);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+}
+
+.fprt1 img {
+    width: 107px;
+    border-radius: 128px;
+    margin-left: 42px;
+    margin-top: 25px;
+    transition-duration: 0.5s;
+    float: left;
+}
+
+.fprt1:hover img {
+    transform: scale(1.05);
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 20px azure;
+}
+
+.fprt1 h2 {
+    font-size: 43px;
+    font-family: fantasy;
+    margin-left: 172px;
+    margin-top: 52px;
+    color: azure;
+    font-weight: normal;
+}
+
+.footer p {
+    text-decoration: underline;
+    color: azure;
+}
+
+.footer .fpart2 table img {
+    width: 33px;
+    margin-top: 5px;
+    margin-left: -37px;
+    transition-duration: 1s;
+}
+
+.footer table h4 {
+    margin-left: 38px;
+    color: azure;
+}
+
+.footer table {
+    margin-top: 25px;
+}
+
+.fpart2 table:hover img {
+    box-shadow: 0 0 50px rgb(36, 170, 170);
+    border-radius: 15px;
+    transform: scale(1.15);
+}
+
+.fpart3 img {
+    width: 33px;
+    margin-top: 7px;
+}
